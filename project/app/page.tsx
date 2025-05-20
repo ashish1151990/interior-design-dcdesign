@@ -1,10 +1,23 @@
-// project/app/page.tsx
+import { Metadata } from "next";
+import Hero from "@/components/home/Hero";
+import FeaturedProjects from "@/components/home/FeaturedProjects";
+import ServicesSection from "@/components/home/ServicesSection";
+import TestimonialsSection from "@/components/home/TestimonialsSection";
+import CTASection from "@/components/home/CTASection";
+
+export const metadata: Metadata = {
+  title: "Interior Design Portfolio",
+  description: "Stunning interior design projects showcasing our expertise and creativity",
+};
 
 export default function HomePage() {
   return (
-    <main className="p-8">
-      <h1 className="text-4xl font-bold text-center">Welcome to DC DESIGN</h1>
-      <p className="text-center text-gray-600 mt-2">Modern interior design, beautifully presented.</p>
-    </main>
+    <div>
+      <Hero />
+      <FeaturedProjects />
+      <ServicesSection />
+      <TestimonialsSection />
+      <CTASection />
+    </div>
   );
 }
