@@ -1,3 +1,5 @@
+// Force Vercel rebuild
+
 import { Metadata } from "next";
 import Hero from "@/components/home/Hero";
 import FeaturedProjects from "@/components/home/FeaturedProjects";
