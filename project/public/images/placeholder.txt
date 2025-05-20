@@ -1,0 +1,2 @@
+This directory contains placeholder images for the interior design portfolio.
+Sample images will be loaded from external URLs (Pexels) in the example application.
